@@ -1,0 +1,169 @@
+html {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+body {
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: normal;
+	line-height: 1.55;
+	color: var(--dl-color-gray-black);
+}
+
+.bg {
+	background-color: rgb(255, 255, 255);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.main {
+	width: 100%;
+	height: auto;
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.navbar {
+	top: 0px;
+	left: -21px;
+	width: 100%;
+	display: flex;
+	position: absolute;
+	align-self: flex-end;
+	align-items: flex-start;
+	padding-top: var(--dl-space-space-fourunits);
+	justify-content: flex-end;
+}
+.gmail {
+	color: #313131;
+	font-size: 13px;
+	align-self: center;
+	font-style: normal;
+	font-weight: 400;
+}
+.images {
+	color: #313131;
+	font-size: 13px;
+	align-self: center;
+	font-style: normal;
+	font-weight: 400;
+	margin-left: 25px;
+}
+.google-dots {
+	width: 20px;
+	align-self: center;
+	object-fit: cover;
+	margin-left: 25px;
+}
+.google-profile {
+	width: 25px;
+	align-self: center;
+	object-fit: cover;
+	margin-left: 25px;
+	border-radius: var(--dl-radius-radius-round);
+}
+.main-container {
+	top: 250px;
+	flex: 0 0 auto;
+	left: 50%;
+	right: 50%;
+	width: auto;
+	display: flex;
+	position: absolute;
+	align-self: center;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.google-image {
+	width: 272px;
+	align-self: center;
+	object-fit: cover;
+	margin-bottom: 44px;
+}
+.search-container {
+	flex: 0 0 auto;
+	width: auto;
+	display: flex;
+	position: relative;
+	align-self: center;
+	align-items: flex-start;
+	justify-content: center;
+}
+.google-magnifier {
+	top: 16px;
+	left: 0px;
+	right: 520px;
+	width: 14px;
+	margin: auto;
+	position: absolute;
+	align-self: center;
+	z-index: 999999;
+}
+.google-search {
+	width: 561px;
+	border: 0;
+	height: 44px;
+	outline: 0;
+	padding: 0px;
+	align-self: center;
+	box-shadow: 0px 0px 5px 2px #d4d4d4;
+	transition: 0.3s;
+	border-width: 0px;
+	border-radius: 25px;
+}
+
+.real-search {
+	top: 14px;
+	right: 0px;
+	padding: 0px;
+	position: absolute;
+	border-width: 0px;
+	margin: auto;
+	left: 15px;
+	width: 491px;
+	outline: 0;
+}
+
+.google-mic {
+	top: 13px;
+	left: 520px;
+	right: 0px;
+	width: 12px;
+	margin: auto;
+	position: absolute;
+	align-self: center;
+	object-fit: cover;
+	z-index: 99999;
+}
+
+@media (max-width: 767px) {
+	.google-magnifier {
+		right: 405px;
+	}
+	.google-search {
+		width: 449px;
+	}
+	.google-mic {
+		left: 405px;
+	}
+}
+@media (max-width: 479px) {
+	.google-magnifier {
+		right: 300px;
+	}
+	.google-search {
+		width: 337px;
+	}
+	.google-mic {
+		left: 300px;
+	}
+}

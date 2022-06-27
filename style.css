@@ -1,0 +1,207 @@
+:root {
+	--dl-color-gray-500: #595959;
+	--dl-color-gray-700: #999999;
+	--dl-color-gray-800: #cbcbcbff;
+	--dl-color-gray-900: #d9d9d9;
+	--dl-color-danger-300: #a22020;
+	--dl-color-danger-500: #bf2626;
+	--dl-color-danger-700: #e14747;
+	--dl-color-gray-black: #000000;
+	--dl-color-gray-white: #ffffff;
+	--dl-space-space-unit: 8px;
+	--dl-color-primary-100: #003eb3;
+	--dl-color-primary-300: #0074f0;
+	--dl-color-primary-500: #14a9ff;
+	--dl-color-primary-700: #85dcff;
+	--dl-color-success-300: #199033;
+	--dl-color-success-500: #32a94c;
+	--dl-color-success-700: #4cc366;
+	--dl-radius-radius-round: 50%;
+	--dl-size-size-maxcontent: 1414px;
+	--dl-space-space-halfunit: 4px;
+	--dl-space-space-tenunits: 80px;
+	--dl-radius-radius-radius2: 2px;
+	--dl-radius-radius-radius4: 4px;
+	--dl-radius-radius-radius8: 8px;
+	--dl-space-space-fiveunits: 40px;
+	--dl-space-space-fourunits: 32px;
+	--dl-space-space-doubleunit: 16px;
+	--dl-space-space-tripleunit: 24px;
+}
+.teleport-show {
+	display: flex !important;
+}
+.list {
+	width: 100%;
+	margin: 1em 0px 1em 0px;
+	display: block;
+	padding: 0px 0px 0px 1.5rem;
+	list-style-type: none;
+	list-style-position: outside;
+}
+.button {
+	color: var(--dl-color-gray-black);
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	font-family: Arial;
+	border-color: var(--dl-color-gray-black);
+	border-width: 1px;
+	border-radius: 4px;
+	background-color: var(--dl-color-gray-white);
+}
+.list-item {
+	display: list-item;
+}
+.textarea {
+	color: var(--dl-color-gray-black);
+	cursor: auto;
+	padding: 0.5rem;
+	font-family: Arial;
+	border-color: var(--dl-color-gray-black);
+	border-width: 1px;
+	border-radius: 4px;
+	background-color: var(--dl-color-gray-white);
+}
+.input {
+	color: var(--dl-color-gray-black);
+	cursor: auto;
+	padding: 0.5rem 1rem;
+	font-family: Arial;
+	border-color: var(--dl-color-gray-black);
+	border-width: 1px;
+	border-radius: 4px;
+	background-color: var(--dl-color-gray-white);
+}
+
+.section-Text {
+	font-size: 18px;
+	font-family: Playfair Display;
+	font-weight: 600;
+	line-height: 1.55;
+	letter-spacing: 2;
+	text-transform: none;
+	text-decoration: none;
+}
+.card-Text {
+	font-size: 16px;
+	font-style: normal;
+	font-family: Playfair Display;
+	font-weight: 400;
+	line-height: 1.55;
+	letter-spacing: 1;
+	text-transform: none;
+	text-decoration: none;
+}
+.content {
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: 400;
+	line-height: 1.55;
+	text-transform: none;
+	text-decoration: none;
+}
+.card-Heading {
+	font-size: 24px;
+	font-style: normal;
+	font-family: Overpass;
+	font-weight: 700;
+	line-height: 1.55;
+	text-transform: none;
+	text-decoration: none;
+}
+.anchor {
+	font-size: 16px;
+	font-family: Overpass;
+	font-weight: 700;
+	line-height: 1.55;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.navbar-Link {
+	font-size: 24px;
+	font-family: Overpass;
+	font-weight: 700;
+	line-height: 1.55;
+	text-transform: none;
+	text-decoration: none;
+}
+.section-Heading {
+	font-size: 48px;
+	font-family: Overpass;
+	font-weight: 900;
+	line-height: 1.22;
+	text-transform: none;
+	text-decoration: none;
+}
+
+html {
+	line-height: 1.15;
+}
+body {
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+	border-width: 0;
+	border-style: solid;
+}
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+button,
+select {
+	text-transform: none;
+}
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+button:-moz-focus,
+[type='button']:-moz-focus,
+[type='reset']:-moz-focus,
+[type='submit']:-moz-focus {
+	outline: 1px dotted ButtonText;
+}
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+input {
+	padding: 2px 4px;
+}
+img {
+	display: block;
+}
+html {
+	scroll-behavior: smooth;
+}
